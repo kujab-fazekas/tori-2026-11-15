@@ -53,7 +53,7 @@ html:`<ul class="pts">
 <div class="note"><b>Newton</b> (Isaac Newton) angol fizikus: bebizonyította, hogy a természetet törvények irányítják, és ezek kísérlettel megismerhetők. Ezt a gondolkodásmódot vitték át a társadalomra is.</div>`,
 checks:[
  mc(`Minek hívják a 18. századot a felvilágosodás szerint?`,`a fény százada`,[`a sötétség százada`,`a hit százada`,`a vasút százada`],`A „fény” az ész és a tudás fénye.`),
- mc(`Mit jelent a tolerancia?`,`egymás tiszteletet, mások hitének és véleményének elfogadását`,[`a király parancsainak követését`,`az egyház feltétlen támogatását`,`a tulajdon korlátozását`],`Tolerancia = egymás tisztelete.`),
+ mc(`Mit jelent a tolerancia?`,`egymás tiszteletét, mások hitének és véleményének elfogadását`,[`a király parancsainak követését`,`az egyház feltétlen támogatását`,`a tulajdon korlátozását`],`Tolerancia = egymás tisztelete.`),
  tf(`A felvilágosodás szerint a társadalom és az állam alakítható, jobbá tehető.`,true,`Ez a felvilágosodás egyik alapgondolata.`),
  tf(`A felvilágosodás egységes, mindenben egyetértő eszmerendszer volt.`,false,`Nem egységes: a gondolkodók vitatkoztak (pl. Montesquieu és Rousseau).`)
 ]},
@@ -155,7 +155,7 @@ html:`<ul class="pts">
 <p>Most vesd össze őt Montesquieu-vel. Kattints a takart mezőkre!</p>`,
 reveal:{head:[`Szempont`,`Montesquieu`,`Rousseau`],rows:[
  [`A nép szerepe`,`választott képviselők útján ellenőrzi a hatalmat`,`maga uralkodik, közvetlenül`],
- [`Hatalmi ágak`,`szétválaszatandók (törvényhozó, végrehajtó, bírói)`,`nincsenek`],
+ [`Hatalmi ágak`,`szétválasztandók (törvényhozó, végrehajtó, bírói)`,`nincsenek`],
  [`Választójog`,`cenzusos`,`(közvetlen népgyűlés, nincs képviselet)`],
  [`Ideális állam`,`angol alkotmányos monarchia`,`kis terület, közvetlen demokrácia`]
 ]},
