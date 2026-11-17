@@ -16,10 +16,8 @@ const YEARS=[
  [1783,`1783`,`párizsi béke`,[`1783`],`jegyzet`],
  [1787,`1787`,`az USA alkotmánya (Philadelphia)`,[`1787`],`jegyzet`],
  [1789,`1789`,`a francia forradalom; a hosszú 19. század kezdete`,[`1789`],`jegyzet`],
- [1812,`1812`,`Napóleon elfoglalja Moszkvát, de nem tudja megtartani`,[`1812`],`jegyzet (térkép)`],
  [1789.5,`1789. aug. 26.`,`Emberi és polgári jogok nyilatkozata`,[`1789. aug. 26.`,`1789. augusztus 26.`,`1789 augusztus 26`,`1789 aug 26`,`1789. aug. 26`],`ppt`],
  [1815,`1815`,`Waterloo – Napóleon utolsó veresége`,[`1815`],`jegyzet`],
- [1830,`1830`,`Görögország kiterjedése (térképlap)`,[`1830`],`jegyzet (térkép)`],
  [1848,`1848/49`,`a népek tavasza`,[`1848/49`,`1848-49`,`1848–49`,`1848/1849`,`1848`],`jegyzet`],
  [1903,`1903`,`Munkáspárt (Nagy-Britannia, a ppt szerint)`,[`1903`],`ppt`]
 ];
@@ -235,7 +233,7 @@ ZONEGEN.examples=function(n=10){
  });
  const countries=[[`Egyesült Királyság`,`alk`],[`Katar`,`abs`],[`USA`,`prez`],[`Magyarország`,`parl`],[`Kína`,`nep`],[`Szaúd-Arábia`,`abs`],[`Brazília`,`prez`],[`Svédország`,`alk`],[`Észak-Korea`,`nep`]];
  pick(countries,3).forEach(c=>{
-  const bad=pick(catIds.filter(i=>i!==c[1]),3).map(i=>FORM_BY[i].name);
+  const bad=pick(catIds.filter(i=>i!==c[1]),3).map(i=>FORM_BY[c[1]===i?c[1]:i].name);
   out.push(mc(`Melyik típushoz tartozik: ${c[0]}?`,FORM_BY[c[1]].name,bad,`${c[0]}: ${FORM_BY[c[1]].name}.`));
  });
  return shuffle(out).slice(0,n);
