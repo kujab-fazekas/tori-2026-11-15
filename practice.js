@@ -79,7 +79,7 @@ const NAMES=[
  [`prezidenciális`,`az elnöki köztársaság jelzője`,[],[`prezidenciális `,`prezidenciális`.replace('c','t'),`prezidenciális`.replace('nci','nsi')],`szakszó`],
  [`parlamentáris`,`a parlamenti köztársaság jelzője`,[],[`parlamentáris `.trim()+'',`parlamentaris`,`parlamenttáris`],`szakszó`],
  [`alkotmányos`,`korlátozott uralkodói hatalmat jelző szó`,[],[`alkotmányos `.trim()+'',`alkotmányos`.replace('y','j'),`alkotmányos`.replace('ány','áni')],`szakszó`],
- [`népköztársaság`,`kommunista egypártrendszerű köztársaság`,[],[`nép köztársaság`,`népköztársáág`.replace('sáág','ság'),`népköztarsaság`],`szakszó`],
+ [`népköztársaság`,`kommunista egypártrendszerű köztársaság`,[],[`nép köztársaság`,`népköztársáág`,`népköztarsaság`],`szakszó`],
  [`monokultúra`,`egy terményt termesztenek nagy területen`,[],[`monokultura`,`monokúltúra`,`monokultúrra`],`szakszó`],
  [`bélyegtörvény`,`a gyarmatokra kivetett illeték`,[`bélyegtv.`],[`bélyegtörvény `.trim()+'',`bélyegtörveny`,`bélyegtörvényy`],`szakszó`],
  [`beszállásolás`,`katonák kötelező elszállásolása a házakban`,[],[`beszálásolás`,`beszállásolás `.trim()+'',`beszállasolás`],`szakszó`],
@@ -153,7 +153,7 @@ const TERMS=[
  [`usa`,`bostoni teadélután`,`1773: a telepesek a bostoni kikötőben a tengerbe dobták a teaszállítmányt`,[[`tenger`,`kikoto`,`boston`],[`tea`]]],
  [`usa`,`philadelphiai kongresszus`,`1774: a 13 gyarmat képviselőinek gyűlése, közös célokkal`,[[`13`,`gyarmat`],[`kozos`,`cel`]]],
  [`usa`,`függetlenségi háború`,`1775–1783: a 13 gyarmat háborúja a britek ellen`,[[`brit`,`angol`],[`hab`]]],
- [`usa`,`Függetlenségi nyilatkozat`,`1776. júl. 4.: a 13 gyarmat kimondja, hogy független Nagy-Británniától`,[[`fuggetlen`]]],
+ [`usa`,`Függetlenségi nyilatkozat`,`1776. júl. 4.: a 13 gyarmat kimondja, hogy független Nagy-Britanniától`,[[`fuggetlen`]]],
  [`usa`,`párizsi béke`,`1783: a függetlenségi háborút lezáró béke`,[[`hab`],[`bek`]]],
  [`usa`,`az USA alkotmánya`,`1787-ben, Philadelphiában született alaptörvény, ma 27 módosítással`,[[`1787`,`philadelphia`],[`27`,`modosit`]]]
 ];
