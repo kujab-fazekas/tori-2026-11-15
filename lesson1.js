@@ -22,20 +22,6 @@ checks:[
  mc(`Melyik eszme nőtt ki a felvilágosodásból és a forradalmakból?`,`liberalizmus`,[`abszolutizmus`,`feudalizmus`,`rabszolgatartás`],`A jegyzet szerint a felvilágosodás → Amerika → francia forradalom láncolat eszméje a liberalizmus.`)
 ]},
 
-{id:'l1s1b', title:`Korszak-évszámok a térképlapról`, src:`jegyzet 8. old. (a térképlap szöveges része)`,
-simple:`A térképlap szövegében is vannak évszámok: Napóleon moszkvai kudarca, Waterloo, Görögország. A térképet magát te csinálod külön, az évszámok viszont kellenek.`,
-html:`<p>Ez a jegyzeted 8. oldalán lévő „Európa topográfiája (1789–1849)” lap szöveges része. Fedd fel mindet, és jegyezd meg a sorrendjüket.</p>`,
-reveal:{head:[`Év`,`Esemény`],rows:[
- [`1812`,`Moszkva – Napóleon elfoglalja, de nem tudja megtartani`],
- [`1815`,`Waterloo – Napóleon utolsó csatája; a brit és porosz csapatok legyőzik`],
- [`1830`,`Görögország kiterjedése (a térképlapon: 1830-i kiterjedés)`],
-]},
-after:`<div class="note"><b>A lap további megjegyzései</b> (csak ha a térképhez kell): Schwechat ma Bécs délkeleti külvárosa a Duna déli partján; a <b>Fekete Ország</b> (Black Country) az angliai bányászat és nehézipar központja, az első ipari forradalom egyik szülőhelye (Birmingham, Manchester, Liverpool környéke).</div>`,
-checks:[
- od(`Rakd időrendbe a térképlap eseményeit!`,[`1812 – Moszkva`,`1815 – Waterloo`,`1830 – Görögország kiterjedése`],`1812 → 1815 → 1830`),
- fl(`Melyik évben foglalta el Napóleon Moszkvát?`,`1812`,`1812 – elfoglalta, de nem tudta megtartani.`),
-]},
-
 {id:'l1s2', title:`Hol indult? Anglia, Locke és a természeti jogok`, src:`jegyzet 1–2. old. · ppt 1/2. dia`,
 simple:`A felvilágosodás Angliában indult a 17. században, onnan jutott át Franciaországba. John Locke szerint az embernek születésétől vannak jogai, és az állam a társadalmi szerződésből születik.`,
 html:`<ul class="pts">
@@ -67,7 +53,7 @@ html:`<ul class="pts">
 <div class="note"><b>Newton</b> (Isaac Newton) angol fizikus: bebizonyította, hogy a természetet törvények irányítják, és ezek kísérlettel megismerhetők. Ezt a gondolkodásmódot vitték át a társadalomra is.</div>`,
 checks:[
  mc(`Minek hívják a 18. századot a felvilágosodás szerint?`,`a fény százada`,[`a sötétség százada`,`a hit százada`,`a vasút százada`],`A „fény” az ész és a tudás fénye.`),
- mc(`Mit jelent a tolerancia?`,`egymás tiszteletét, mások hitének és véleményének elfogadását`,[`a király parancsainak követését`,`az egyház feltétlen támogatását`,`a tulajdon korlátozását`],`Tolerancia = egymás tisztelete.`),
+ mc(`Mit jelent a tolerancia?`,`egymás tiszteletet, mások hitének és véleményének elfogadását`,[`a király parancsainak követését`,`az egyház feltétlen támogatását`,`a tulajdon korlátozását`],`Tolerancia = egymás tisztelete.`),
  tf(`A felvilágosodás szerint a társadalom és az állam alakítható, jobbá tehető.`,true,`Ez a felvilágosodás egyik alapgondolata.`),
  tf(`A felvilágosodás egységes, mindenben egyetértő eszmerendszer volt.`,false,`Nem egységes: a gondolkodók vitatkoztak (pl. Montesquieu és Rousseau).`)
 ]},
@@ -169,7 +155,7 @@ html:`<ul class="pts">
 <p>Most vesd össze őt Montesquieu-vel. Kattints a takart mezőkre!</p>`,
 reveal:{head:[`Szempont`,`Montesquieu`,`Rousseau`],rows:[
  [`A nép szerepe`,`választott képviselők útján ellenőrzi a hatalmat`,`maga uralkodik, közvetlenül`],
- [`Hatalmi ágak`,`szétválasztandók (törvényhozó, végrehajtó, bírói)`,`nincsenek`],
+ [`Hatalmi ágak`,`szétválaszatandók (törvényhozó, végrehajtó, bírói)`,`nincsenek`],
  [`Választójog`,`cenzusos`,`(közvetlen népgyűlés, nincs képviselet)`],
  [`Ideális állam`,`angol alkotmányos monarchia`,`kis terület, közvetlen demokrácia`]
 ]},
