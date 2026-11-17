@@ -23,24 +23,17 @@ checks:[
 ]},
 
 {id:'l1s1b', title:`Korszak-évszámok a térképlapról`, src:`jegyzet 8. old. (a térképlap szöveges része)`,
-simple:`A térképlap szövegében is vannak évszámok: Napóleon moszkvai kudarca, a magyar szabadságharc állomásai. A térképet magát te csinálod külön, az évszámok viszont kellenek.`,
+simple:`A térképlap szövegében is vannak évszámok: Napóleon moszkvai kudarca, Waterloo, Görögország. A térképet magát te csinálod külön, az évszámok viszont kellenek.`,
 html:`<p>Ez a jegyzeted 8. oldalán lévő „Európa topográfiája (1789–1849)” lap szöveges része. Fedd fel mindet, és jegyezd meg a sorrendjüket.</p>`,
 reveal:{head:[`Év`,`Esemény`],rows:[
  [`1812`,`Moszkva – Napóleon elfoglalja, de nem tudja megtartani`],
  [`1815`,`Waterloo – Napóleon utolsó csatája; a brit és porosz csapatok legyőzik`],
  [`1830`,`Görögország kiterjedése (a térképlapon: 1830-i kiterjedés)`],
- [`1848. szept. 29.`,`Pákozd – az 1848/49-es magyar forradalom és szabadságharc első győztes csatája`],
- [`1848 ősze – 1849 májusa`,`Prága, Olmütz – ide menekül a bécsi udvar`],
- [`1849. márc. 4.`,`az olmützi oktrojált alkotmány megszületik`],
- [`1849. aug. 13.`,`Világos – a magyar honvédsereg leteszi a fegyvert a cári (orosz) csapatok előtt`]
 ]},
-after:`<div class="note"><b>Magyarázat:</b> <b>oktrojált</b> alkotmány = az uralkodó egyoldalúan, a nép képviselőinek megkérdezése nélkül kihirdetett alkotmány. <b>Cári</b> = orosz cár katonái. <b>Honvédsereg</b> = az 1848/49-es magyar nemzeti hadsereg.<br>A lap további megjegyzései (csak ha a térképhez kell): Schwechat ma Bécs délkeleti külvárosa a Duna déli partján; a <b>Fekete Ország</b> (Black Country) az angliai bányászat és nehézipar központja, az első ipari forradalom egyik szülőhelye (Birmingham, Manchester, Liverpool környéke).</div>`,
+after:`<div class="note"><b>A lap további megjegyzései</b> (csak ha a térképhez kell): Schwechat ma Bécs délkeleti külvárosa a Duna déli partján; a <b>Fekete Ország</b> (Black Country) az angliai bányászat és nehézipar központja, az első ipari forradalom egyik szülőhelye (Birmingham, Manchester, Liverpool környéke).</div>`,
 checks:[
- od(`Rakd időrendbe a térképlap eseményeit!`,[`1812 – Moszkva`,`1815 – Waterloo`,`1830 – Görögország kiterjedése`,`1848. szept. 29. – Pákozd`,`1849. márc. 4. – olmützi alkotmány`,`1849. aug. 13. – Világos`],`1812 → 1815 → 1830 → 1848. szept. 29. → 1849. márc. 4. → 1849. aug. 13.`),
- mt(`Párosítsd a helyet az eseménnyel!`,[[`Pákozd`,`a szabadságharc első győztes csatája`],[`Olmütz`,`oktrojált alkotmány (1849. márc. 4.)`],[`Világos`,`a honvédsereg leteszi a fegyvert`],[`Moszkva`,`Napóleon elfoglalja, de nem tudja megtartani`]],`A térképlap bejegyzései.`),
+ od(`Rakd időrendbe a térképlap eseményeit!`,[`1812 – Moszkva`,`1815 – Waterloo`,`1830 – Görögország kiterjedése`],`1812 → 1815 → 1830`),
  fl(`Melyik évben foglalta el Napóleon Moszkvát?`,`1812`,`1812 – elfoglalta, de nem tudta megtartani.`),
- fl(`Melyik napon tette le a fegyvert a magyar honvédsereg Világosnál? (pl. 1850. jan. 1.)`,[`1849. aug. 13.`,`1849. augusztus 13.`],`1849. augusztus 13.`),
- mc(`Mi történt Pákozdnál 1848. szept. 29-én?`,`a magyar szabadságharc első győztes csatája`,[`a honvédsereg letette a fegyvert`,`Napóleon utolsó csatája`,`a bécsi udvar Olmützbe menekült`],`Pákozd: az első győztes csatája az 1848/49-es szabadságharcnak.`)
 ]},
 
 {id:'l1s2', title:`Hol indult? Anglia, Locke és a természeti jogok`, src:`jegyzet 1–2. old. · ppt 1/2. dia`,
