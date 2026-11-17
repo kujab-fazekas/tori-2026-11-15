@@ -75,7 +75,7 @@ checks:[
  mc(`Mit jelent a „képviselet nélkül nincs adózás”?`,`a gyarmatoknak nem volt képviselőjük a londoni parlamentben, ezért nem akartak adót fizetni`,[`a király nem fizet adót`,`a parlament adót emel`,`csak a gazdagok fizetnek adót`],`Jelszó a bojkott idején.`),
  mu(`Melyek az új adók és szabályok példái a ppt-ben? (jelöld)`,[`bélyegtörvény`,`katonák kötelező beszállásolása`],[`a tea behozatalának tilalma`,`a rabszolgák felszabadítása`],`Bélyegtörvény, beszállásolás.`),
  mc(`Kinek volt monopóliuma a tea kereskedelmére 1773-ban?`,`a Kelet-Indiai Társaságnak`,[`a hollandoknak`,`Virginia telepeseinek`,`az indiánoknak`],`Kelet-Indiai Társaság.`),
- cz(`Egészítsd ki!`,`A telepesek {{bojkott}}tal tiltakoztak, a jelszavuk: „képviselet nélkül nincs {{adózás}}”.`,`Bojkott = vásárlás megtagadása.`)
+ cz(`Egészítsd ki!`,`A telepesek {{bojkot}}tal tiltakoztak, a jelszavuk: „képviselet nélkül nincs {{adózás}}”.`,`Bojkott = vásárlás megtagadása.`)
 ]},
 
 {id:'l4s5', title:`Az évszámok útja 1773-tól 1787-ig`, src:`jegyzet 11. és 13. old.`,
