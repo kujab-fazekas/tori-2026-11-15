@@ -21,9 +21,6 @@ const YEARS=[
  [1815,`1815`,`Waterloo – Napóleon utolsó veresége`,[`1815`],`jegyzet`],
  [1830,`1830`,`Görögország kiterjedése (térképlap)`,[`1830`],`jegyzet (térkép)`],
  [1848,`1848/49`,`a népek tavasza`,[`1848/49`,`1848-49`,`1848–49`,`1848/1849`,`1848`],`jegyzet`],
- [1848.75,`1848. szept. 29.`,`Pákozd – a magyar szabadságharc első győztes csatája`,[`1848. szept. 29.`,`1848. szeptember 29.`,`1848 szept 29`,`1848. szept. 29`],`jegyzet (térkép)`],
- [1849.17,`1849. márc. 4.`,`az olmützi oktrojált alkotmány`,[`1849. márc. 4.`,`1849. március 4.`,`1849 márc 4`,`1849. márc. 4`],`jegyzet (térkép)`],
- [1849.62,`1849. aug. 13.`,`Világos – a honvédsereg leteszi a fegyvert`,[`1849. aug. 13.`,`1849. augusztus 13.`,`1849 aug 13`,`1849. aug. 13`],`jegyzet (térkép)`],
  [1903,`1903`,`Munkáspárt (Nagy-Britannia, a ppt szerint)`,[`1903`],`ppt`]
 ];
 YEARS.sort((a,b)=>a[0]-b[0]);
@@ -107,7 +104,7 @@ const TERMS=[
  [`felv`,`hatalommegosztás`,`a hatalmat külön ágakra (törvényhozó, végrehajtó, bírói) osztják, hogy ne legyen zsarnokság`,[[`torvenyhozo`],[`vegrehajto`],[`biro`],[`zsarnok`,`egy kez`]]],
  [`felv`,`törvényhozó hatalom`,`a törvényeket hozó hatalmi ág: a parlament`,[[`torveny`],[`parlament`]]],
  [`felv`,`végrehajtó hatalom`,`a törvényeket végrehajtó hatalmi ág: a kormány (az USA-ban az elnök)`,[[`vegrehajt`,`torveny`],[`kormany`,`elnok`]]],
- [`felv`,`bírói hatalom`,`a vitákat és bűnügyeket elbíráló hatalmi ág: a bíróságok`,[[`biro`,`birosag`,`elbiral`,`itel`]]],
+ [`felv`,`bírói hatalom`,`a vitákat és bűnügyeket elbíráló hatalom: a bíróságok`,[[`biro`,`birosag`,`elbiral`,`itel`]]],
  [`felv`,`cenzus`,`a választójog korlátozása bizonyos szempontok szerint (pl. vagyon, kor, nem, műveltség)`,[[`valasztojog`,`szavaz`],[`korlat`],[`vagyon`,`kor`,`nem`,`mu`]],1],
  [`felv`,`zsarnokság`,`egy kézben lévő, korlátlan, önkényes hatalom`,[[`korlatlan`,`onkeny`,`elnyom`,`egy kez`]]],
  [`felv`,`földrajzi determinizmus`,`Montesquieu gondolata: a földrajzi környezet (éghajlat) meghatározza a népek jellegét és a törvényeket`,[[`foldrajz`,`eghajlat`,`kornyezet`],[`hataroz`,`befolyas`]]],
